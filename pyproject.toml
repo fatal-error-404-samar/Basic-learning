@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basic_learning"
+version = "0.0.1"
+description = "A basic neural network framework made by me. It's quite basic, but I hope it was of use."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Samar Jyoti Pator", email = "samarjyotipator78@gmail.com" }
+]
+dependencies = []
+requires-python = ">=3.7"
+keywords = ["neural network", "machine learning", "education"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/fatal-error-404-samar/Basic-Learning"
+"Repository" = "https://github.com/fatal-error-404-samar/Basic-Learning"
